@@ -1,0 +1,101 @@
+.container-slideform {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #18337c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 130vh;
+}
+
+.carousel-container-form {
+  box-shadow: 10px 10px 40px 5px #000;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  position: relative;
+  width: 80%;
+  max-width: 600px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.static-map{
+  height: "500px"; 
+  border: 0; 
+  width: "500px"; 
+  margin-left: "80px"; 
+  margin-bottom: "50px"; 
+  position: "relative";
+}
+.carousel-form {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item-form {
+  flex: 0 0 100%;
+  box-sizing: border-box;
+  padding: 20px;
+  text-align: center;
+}
+
+.carousel-item-form h2, .carousel-item-form p{
+  display: flex;
+  color: white;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.carousel-item-form h2 a:hover {
+  color: white;
+}
+
+.carousel-item-form img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.carousel-controls {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+}
+
+.control-form-btn {
+  background-color: transparent;
+  color: black;
+  border: transparent;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.slide{
+color: white;
+font-size: 50px;
+}
+
+.control-form-btn:hover {
+  background-color: #2077c8;
+}
+
+.prev-form-btn {
+  order: -1;
+}
+
+.order-form-btn{
+  font-size: 30px;
+  color: white;
+  text-decoration: underline;
+}
+
+.order-form-btn:hover{
+  color: #3f88cc;
+  text-decoration: underline;
+}
